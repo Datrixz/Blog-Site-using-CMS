@@ -11,7 +11,7 @@ const TopBar = () => {
       <div className="navbar-end">
         <div className="hidden md:block">
           <Link to="/about" className="btn btn-md btn-primary mr-6">About Me!!</Link>
-          <a href="https://manage.sanity.io" className="btn btn-md btn-outline">Login</a>
+          <a href="https://blogv17.sanity.studio/" className="btn btn-md btn-outline">Login</a>
         </div>
         <div className="dropdown dropdown-end md:hidden">
           <label tabIndex="0">
@@ -27,7 +27,7 @@ const TopBar = () => {
               </Link>
             </li>
             <li>
-              <a href="https://manage.sanity.io">
+              <a href="https://blogv17.sanity.studio/">
                 <MdOutlineLogin className="h-5 w-5" /> Login
               </a>
             </li>
